@@ -18,7 +18,7 @@ public class AssignmentTests extends Setup {
 
     }
 
-    @Test(groups = "regression", description = "WalletHub test insurance company flow")//, retryAnalyzer = RetryTest.class)
+    @Test(groups = "regression", description = "WalletHub test insurance company flow", retryAnalyzer = RetryTest.class)
     public void testAssignment_02() {
         String product = "Health Insurance";
         String review = Utils.randomText();
